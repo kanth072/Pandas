@@ -59,6 +59,4 @@ Formatted output examples:
   - Validating currency/locale formatting.
   - Adding unit tests and logging for reproducibility.
 
-## License & contact
-- License: MIT (or choose your preferred license)
-- Maintainer: kanth072 — open an issue or submit a PR for changes
+
