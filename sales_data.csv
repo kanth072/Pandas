@@ -1,0 +1,57 @@
+
+--- DATA INFO ---
+         Date     Product  Quantity  Price Customer_ID Region  Total_Sales
+0  2024-01-01       Phone         7  37300     CUST001   East       261100
+1  2024-01-02  Headphones         4  15406     CUST002  North        61624
+2  2024-01-03       Phone         2  21746     CUST003   West        43492
+3  2024-01-04  Headphones         1  30895     CUST004   East        30895
+4  2024-01-05      Laptop         8  39835     CUST005  North       318680
+
+Shape: (100, 7)
+
+Columns: ['Date', 'Product', 'Quantity', 'Price', 'Customer_ID', 'Region', 'Total_Sales']
+
+Data Types:
+Date           object
+Product        object
+Quantity        int64
+Price           int64
+Customer_ID    object
+Region         object
+Total_Sales     int64
+dtype: object
+
+--- CLEANING DATA ---
+
+Missing values before cleaning:
+Date           0
+Product        0
+Quantity       0
+Price          0
+Customer_ID    0
+Region         0
+Total_Sales    0
+dtype: int64
+
+Missing values after cleaning:
+Date           0
+Product        0
+Quantity       0
+Price          0
+Customer_ID    0
+Region         0
+Total_Sales    0
+dtype: int64
+
+--- ANALYSIS ---
+
+=== SALES REPORT ===
+Total Revenue: ₹12,365,048.00
+Best-Selling Product: Laptop
+Average Order Value: ₹123,650.48
+
+Insights:
+- Revenue looks healthy — monitor trends over time.
+- Best-seller shows where demand is highest.
+- Consider improving products with low contribution.
+
